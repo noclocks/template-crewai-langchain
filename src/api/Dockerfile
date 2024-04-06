@@ -1,0 +1,3 @@
+ARG PYTHON_VERSION="3.12.0"
+
+FROM python:${PYTHON_VERSION}-slim AS base
